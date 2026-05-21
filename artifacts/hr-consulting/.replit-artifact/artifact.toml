@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "HR Consulting"
+version = "1.0.0"
+id = "artifacts/hr-consulting"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20246
+
+[services.development]
+run = "pnpm --filter @workspace/hr-consulting run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/hr-consulting", "run", "build" ]
+publicDir = "artifacts/hr-consulting/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20246"
+BASE_PATH = "/"

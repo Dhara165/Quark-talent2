@@ -1,0 +1,14 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "MUEtShAKNpoKA6K_me9SS"
+uri = "file://artifacts/hr-consulting/public/hero-bg.png"
+type = "image"
+title = "abstract tech HR background"
+
+[[generated]]
+id = "j2I8sxJrAdj-2f3WdEi6k"
+uri = "file://artifacts/hr-consulting/public/services-bg.png"
+type = "image"
+title = "confident professional silhouette"
