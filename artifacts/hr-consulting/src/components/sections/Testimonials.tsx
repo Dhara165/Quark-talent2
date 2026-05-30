@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const stats = [
+const sectorCards = [
   {
     value: "Tech & AI",
     label: "Primary sector focus",
@@ -23,15 +23,32 @@ const stats = [
   },
 ];
 
-const pillars = [
-  { number: "01", heading: "Sector depth, not breadth", body: "We operate in four industries and know them well. Our networks are built over years, not scraped from a database." },
-  { number: "02", heading: "Search, not contingency", body: "We work on retained and exclusive mandates — this is how we invest fully in every search and hold ourselves accountable to the outcome." },
-  { number: "03", heading: "Honest counsel", body: "We tell clients when a role is mis-specified, a compensation band is off-market, or the brief needs rethinking. Partnership means saying the hard things." },
+const values = [
+  {
+    keyword: "Mission",
+    headline: "Put the right people in the right seats.",
+    body: "We exist to help organizations unlock their full potential by connecting them with talent that drives real outcomes — not just resumes that tick boxes. Every placement is a long-term investment in both the company and the individual.",
+  },
+  {
+    keyword: "Vision",
+    headline: "A world where hiring is a strategic advantage.",
+    body: "We believe the best organizations are built on deliberate people decisions. Our vision is a talent market where businesses of all sizes can access the calibre of advisory that has historically been reserved for the largest firms.",
+  },
+  {
+    keyword: "Purpose",
+    headline: "Create careers. Build organizations. Raise the bar.",
+    body: "Beyond the transaction, we are invested in the careers of the people we place and the health of the organizations we serve. That long view shapes every conversation, every search, and every recommendation we make.",
+  },
+  {
+    keyword: "Values",
+    headline: "Candour. Commitment. Craft.",
+    body: "We say what needs to be said — even when it is uncomfortable. We follow through on every commitment we make. And we approach every search with the rigour and precision it deserves. No shortcuts. No filler candidates.",
+  },
 ];
 
 export function Testimonials() {
   return (
-    <section className="py-24 md:py-32 bg-muted/20">
+    <section className="py-24 md:py-32 bg-primary text-primary-foreground overflow-hidden">
       <div className="container mx-auto px-4">
 
         <motion.div
@@ -39,59 +56,36 @@ export function Testimonials() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="mb-20"
+          className="mb-20 max-w-2xl"
         >
-          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Where We Work</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl">
-            Four industries. Deep networks. We go where generalist firms can't follow.
+          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-white">
+            What We Stand For
+          </h2>
+          <p className="text-xl text-primary-foreground/70">
+            The beliefs that guide every search, every conversation, and every long-term partnership we build.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-24">
-          {stats.map((stat, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-primary-foreground/10 rounded-2xl overflow-hidden border border-primary-foreground/10">
+          {values.map((v, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-card border rounded-2xl p-8"
-              data-testid={`sector-card-${index}`}
+              className="bg-primary p-10 md:p-12 group hover:bg-white/5 transition-colors duration-300"
+              data-testid={`value-card-${index}`}
             >
-              <div className="text-accent font-heading font-bold text-2xl mb-1">{stat.value}</div>
-              <div className="text-xs uppercase tracking-widest text-muted-foreground font-semibold mb-4">{stat.label}</div>
-              <p className="text-muted-foreground leading-relaxed">{stat.detail}</p>
-            </motion.div>
-          ))}
-        </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="mb-16"
-        >
-          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">How We Work</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl">
-            The principles that guide every engagement.
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {pillars.map((pillar, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="relative"
-              data-testid={`pillar-card-${index}`}
-            >
-              <div className="text-7xl font-bold text-muted/20 font-heading mb-4 select-none">{pillar.number}</div>
-              <h3 className="text-xl font-bold mb-3">{pillar.heading}</h3>
-              <p className="text-muted-foreground leading-relaxed">{pillar.body}</p>
+              <div className="text-xs font-semibold tracking-widest uppercase text-accent mb-4">
+                {v.keyword}
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-4 leading-snug">
+                {v.headline}
+              </h3>
+              <p className="text-primary-foreground/65 leading-relaxed">
+                {v.body}
+              </p>
             </motion.div>
           ))}
         </div>
