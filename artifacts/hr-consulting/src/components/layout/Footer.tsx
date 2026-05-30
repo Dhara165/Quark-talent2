@@ -29,18 +29,8 @@ export function Footer() {
           </div>
           
           <div>
-            <h4 className="font-bold mb-4">Locations</h4>
-            <ul className="space-y-3 text-primary-foreground/70 text-sm">
-              <li>
-                <span className="text-primary-foreground/40 uppercase tracking-widest text-xs">New Jersey</span><br />
-                Newport, NJ
-              </li>
-              <li>
-                <span className="text-primary-foreground/40 uppercase tracking-widest text-xs">Toronto</span><br />
-                Toronto, ON
-              </li>
-            </ul>
-            <div className="mt-6 space-y-1 text-primary-foreground/70 text-sm">
+            <h4 className="font-bold mb-4">Contact</h4>
+            <div className="space-y-1 text-primary-foreground/70 text-sm">
               <p>partner@quarktalent.com</p>
               <p>Tel: +1 (917) 654-7106</p>
             </div>

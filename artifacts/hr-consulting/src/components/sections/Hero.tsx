@@ -69,7 +69,7 @@ export function Hero() {
             >
               {[
                 { stat: "20+", label: "Years of combined experience" },
-                { stat: "500+", label: "Roles placed across North America" },
+                { stat: "North America", label: "Active search capability across the US and Canada" },
                 { stat: "All levels", label: "Specialist to C-suite" },
                 { stat: "Retained", label: "Search model, not contingency" },
               ].map((item) => (
