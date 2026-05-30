@@ -40,7 +40,7 @@ export function Hero() {
               From specialist roles to executive appointments, we help organizations across every industry find and secure the people who move them forward: permanently, on contract, or on an interim basis.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 mb-16">
               <Button 
                 size="lg" 
                 className="text-lg h-14 px-8 bg-accent hover:bg-accent/90 text-white border-0"
@@ -60,6 +60,25 @@ export function Hero() {
                 Explore Services
               </Button>
             </div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+              className="flex flex-wrap gap-x-10 gap-y-4 border-t border-white/10 pt-10"
+            >
+              {[
+                { stat: "20+", label: "Years of combined experience" },
+                { stat: "500+", label: "Roles placed across North America" },
+                { stat: "All levels", label: "Specialist to C-suite" },
+                { stat: "Retained", label: "Search model, not contingency" },
+              ].map((item) => (
+                <div key={item.stat} className="flex flex-col" data-testid={`hero-stat-${item.stat.replace(/\s+/g, "-").toLowerCase()}`}>
+                  <span className="text-2xl font-bold text-white font-heading">{item.stat}</span>
+                  <span className="text-sm text-white/55">{item.label}</span>
+                </div>
+              ))}
+            </motion.div>
           </motion.div>
         </div>
       </div>

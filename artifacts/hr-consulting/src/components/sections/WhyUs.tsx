@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 
 const differentiators = [
-  "Deep Sector Specialization",
-  "AI-Augmented Search Methodology",
-  "Embedded Partnership Model",
-  "Data-Driven Candidate Assessment",
-  "Proprietary Talent Networks",
-  "Post-Placement Integration"
+  "20+ years of combined talent and HR leadership experience",
+  "Retained search model: quality over volume, always",
+  "Direct access to passive candidates not visible on job boards",
+  "Rigorous candidate assessment, not resume forwarding",
+  "Senior-led searches from brief to placement",
+  "Ongoing support through onboarding and beyond",
 ];
 
 export function WhyUs() {
@@ -30,8 +30,8 @@ export function WhyUs() {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />
               <div className="absolute bottom-0 left-0 p-8">
                 <div className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl">
-                  <div className="text-4xl font-bold text-white mb-2">98%</div>
-                  <div className="text-white/80 font-medium">Retention rate beyond year one for executive placements.</div>
+                  <div className="text-4xl font-bold text-white mb-2">20+</div>
+                  <div className="text-white/80 font-medium">Years of combined experience placing talent across North America.</div>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ export function WhyUs() {
           >
             <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">The Quark Advantage</h2>
             <p className="text-xl text-muted-foreground mb-10 leading-relaxed">
-              We operate differently. By limiting our active engagements, we guarantee partner-level attention on every search. Our process combines institutional rigor with startup agility.
+              Two decades of experience across talent acquisition and HR leadership means we understand what good looks like at every level. We are practitioners first, not generalist consultants learning your business from a brief.
             </p>
 
             <ul className="space-y-6">

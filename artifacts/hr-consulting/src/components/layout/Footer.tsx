@@ -8,7 +8,7 @@ export function Footer() {
               QUARK <span className="text-accent">TALENT</span>
             </div>
             <p className="text-primary-foreground/70 max-w-sm mb-6">
-              Strategic human capital advisory for the digital economy. We build the teams that build the future.
+              Talent acquisition and HR advisory with over 20 years of combined experience. We help organizations find and keep the people who matter most.
             </p>
             <div className="flex gap-4">
               {/* Social icons placeholder */}
@@ -29,13 +29,15 @@ export function Footer() {
           </div>
           
           <div>
-            <h4 className="font-bold mb-4">Offices</h4>
+            <h4 className="font-bold mb-4">Locations</h4>
             <ul className="space-y-2 text-primary-foreground/70">
-              <li>New York</li>
-              <li>San Francisco</li>
-              <li>London</li>
-              <li>Singapore</li>
+              <li>Newport, NJ</li>
+              <li>Toronto, ON</li>
             </ul>
+            <div className="mt-6 space-y-1 text-primary-foreground/70 text-sm">
+              <p>partner@quarktalent.com</p>
+              <p>+1 (918) 654-7106</p>
+            </div>
           </div>
         </div>
         
