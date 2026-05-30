@@ -5,7 +5,7 @@ const services = [
   {
     id: "01",
     title: "Talent Acquisition & Executive Search",
-    description: "Our core practice. Targeted search for visionary leaders and specialized talent across tech, AI, retail, and services. We don't just find candidates — we identify market-makers who move organizations forward.",
+    description: "From specialist contributors to C-suite executives, we run precise, confidential searches across every function and every industry. We do not present volume — we present the right shortlist, backed by genuine market knowledge and a rigorous assessment process.",
     icon: Users,
     primary: true,
   },
@@ -38,9 +38,9 @@ export function Services() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-12 justify-between mb-20">
           <div className="max-w-xl">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Talent First.<br /><span className="text-accent">Everything Else Follows.</span></h2>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">What We Do</h2>
             <p className="text-xl text-muted-foreground">
-              Recruitment and talent acquisition are our primary focus. HRIS advisory and interim leadership are additional capabilities we bring when clients need the full picture.
+              Whether you need to fill a single critical role or rethink your entire people function, we bring the same rigour, speed, and commitment to every engagement — regardless of industry, function, or level.
             </p>
           </div>
           <div className="hidden md:block w-1/3">

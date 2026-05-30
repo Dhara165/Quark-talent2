@@ -30,14 +30,14 @@ export function Hero() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/20 text-accent font-medium text-sm mb-6 border border-accent/20">
               <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-              Next-Generation Talent Advisory
+              Talent Acquisition & HR Advisory
             </div>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-white leading-[1.1] mb-6">
-              Precision Talent.<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-blue-400">Strategic Impact.</span>
+              The Right Person<br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-blue-400">Changes Everything.</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/80 max-w-2xl mb-10 leading-relaxed font-light">
-              We operate at the intersection of human capital and technology, partnering with forward-thinking companies to build elite teams and robust HR infrastructure.
+              From specialist roles to executive appointments, we help organizations across every industry find and secure the people who move them forward — permanently, on contract, or on an interim basis.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

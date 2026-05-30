@@ -46,14 +46,13 @@ export function Sectors() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Industries We Serve</h2>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Every Sector. Every Level.</h2>
             <p className="text-xl text-muted-foreground">
-              We work across industries and welcome every engagement. Where we have built the deepest networks and domain fluency, we say so — but great talent challenges are universal, and we are built to solve them wherever they arise.
+              Exceptional talent challenges are not confined to one industry. We partner with organizations across the full spectrum — from ambitious start-ups to global enterprises — bringing the same depth of process and quality of search to every mandate we accept.
             </p>
           </motion.div>
         </div>
 
-        <p className="text-xs uppercase tracking-widest font-semibold text-accent mb-6">Areas of deep focus</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {deepExpertise.map((sector, index) => (
             <motion.div
@@ -74,7 +73,6 @@ export function Sectors() {
           ))}
         </div>
 
-        <p className="text-xs uppercase tracking-widest font-semibold text-muted-foreground mb-6">Also active in</p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {alsoServed.map((sector, index) => (
             <motion.div
@@ -86,7 +84,7 @@ export function Sectors() {
               className="flex items-center gap-3 bg-card border rounded-lg px-5 py-4"
               data-testid={`sector-also-${index}`}
             >
-              <sector.icon className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+              <sector.icon className="h-5 w-5 text-accent flex-shrink-0" />
               <span className="text-sm font-medium">{sector.name}</span>
             </motion.div>
           ))}
