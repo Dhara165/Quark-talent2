@@ -71,15 +71,15 @@ export function Contact() {
             <div className="space-y-8">
               <div>
                 <h4 className="font-bold text-lg mb-2">New Jersey</h4>
-                <p className="text-muted-foreground">Quark Talent<br />Newport, NJ</p>
+                <p className="text-muted-foreground">Newport, NJ</p>
               </div>
               <div>
                 <h4 className="font-bold text-lg mb-2">Toronto</h4>
-                <p className="text-muted-foreground">Quark Talent<br />Toronto, ON</p>
+                <p className="text-muted-foreground">Toronto, ON</p>
               </div>
               <div>
-                <h4 className="font-bold text-lg mb-2">Direct Inquiry</h4>
-                <p className="text-muted-foreground">partner@quarktalent.com<br />+1 (918) 654-7106</p>
+                <h4 className="font-bold text-lg mb-2">Contact</h4>
+                <p className="text-muted-foreground">partner@quarktalent.com<br />Tel: +1 (917) 654-7106</p>
               </div>
             </div>
           </motion.div>
