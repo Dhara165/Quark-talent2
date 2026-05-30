@@ -48,7 +48,7 @@ export function Sectors() {
           >
             <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Every Sector. Every Level.</h2>
             <p className="text-xl text-muted-foreground">
-              Exceptional talent challenges are not confined to one industry. We partner with organizations across the full spectrum — from ambitious start-ups to global enterprises — bringing the same depth of process and quality of search to every mandate we accept.
+              Exceptional talent challenges are not confined to one industry. We partner with organizations across the full spectrum, from ambitious start-ups to global enterprises, bringing the same depth of process and quality of search to every mandate we accept.
             </p>
           </motion.div>
         </div>

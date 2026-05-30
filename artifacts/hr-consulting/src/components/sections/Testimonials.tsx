@@ -19,7 +19,7 @@ const sectorCards = [
   {
     value: "HRIS",
     label: "Systems advisory",
-    detail: "Workday, SAP SuccessFactors, BambooHR, and more — vendor-neutral guidance from selection through go-live.",
+    detail: "Workday, SAP SuccessFactors, BambooHR, and more. Vendor-neutral guidance from selection through go-live.",
   },
 ];
 
@@ -27,7 +27,7 @@ const values = [
   {
     keyword: "Mission",
     headline: "Put the right people in the right seats.",
-    body: "We exist to help organizations unlock their full potential by connecting them with talent that drives real outcomes — not just resumes that tick boxes. Every placement is a long-term investment in both the company and the individual.",
+    body: "We exist to help organizations unlock their full potential by connecting them with talent that drives real outcomes, not just resumes that tick boxes. Every placement is a long-term investment in both the company and the individual.",
   },
   {
     keyword: "Vision",
@@ -42,7 +42,7 @@ const values = [
   {
     keyword: "Values",
     headline: "Candour. Commitment. Craft.",
-    body: "We say what needs to be said — even when it is uncomfortable. We follow through on every commitment we make. And we approach every search with the rigour and precision it deserves. No shortcuts. No filler candidates.",
+    body: "We say what needs to be said, even when it is uncomfortable. We follow through on every commitment we make. And we approach every search with the rigour and precision it deserves. No shortcuts. No filler candidates.",
   },
 ];
 

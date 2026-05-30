@@ -33,11 +33,11 @@ export function Hero() {
               Talent Acquisition & HR Advisory
             </div>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-white leading-[1.1] mb-6">
-              The Right Person<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-blue-400">Changes Everything.</span>
+              Precision Talent.<br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-blue-400">Strategic Impact.</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/80 max-w-2xl mb-10 leading-relaxed font-light">
-              From specialist roles to executive appointments, we help organizations across every industry find and secure the people who move them forward — permanently, on contract, or on an interim basis.
+              From specialist roles to executive appointments, we help organizations across every industry find and secure the people who move them forward: permanently, on contract, or on an interim basis.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

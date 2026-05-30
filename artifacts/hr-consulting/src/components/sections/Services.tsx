@@ -5,7 +5,7 @@ const services = [
   {
     id: "01",
     title: "Talent Acquisition & Executive Search",
-    description: "From specialist contributors to C-suite executives, we run precise, confidential searches across every function and every industry. We do not present volume — we present the right shortlist, backed by genuine market knowledge and a rigorous assessment process.",
+    description: "From specialist contributors to C-suite executives, we run precise, confidential searches across every function and every industry. We do not present volume. We present the right shortlist, backed by genuine market knowledge and a rigorous assessment process.",
     icon: Users,
     primary: true,
   },
@@ -19,7 +19,7 @@ const services = [
   {
     id: "03",
     title: "HRIS Advisory & Implementation",
-    description: "A supporting capability to our talent work. From vendor selection to full rollout and data migration, we ensure your HR systems amplify — not obstruct — your people strategy.",
+    description: "A supporting capability to our talent work. From vendor selection to full rollout and data migration, we ensure your HR systems amplify, not obstruct, your people strategy.",
     icon: Database,
     primary: false,
   },
@@ -40,7 +40,7 @@ export function Services() {
           <div className="max-w-xl">
             <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">What We Do</h2>
             <p className="text-xl text-muted-foreground">
-              Whether you need to fill a single critical role or rethink your entire people function, we bring the same rigour, speed, and commitment to every engagement — regardless of industry, function, or level.
+              Whether you need to fill a single critical role or rethink your entire people function, we bring the same rigour, speed, and commitment to every engagement, regardless of industry, function, or level.
             </p>
           </div>
           <div className="hidden md:block w-1/3">

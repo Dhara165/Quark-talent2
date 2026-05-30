@@ -71,7 +71,7 @@ export function Contact() {
             <div className="space-y-8">
               <div>
                 <h4 className="font-bold text-lg mb-2">New Jersey</h4>
-                <p className="text-muted-foreground">Quark Talent<br />Parsippany, NJ 07054</p>
+                <p className="text-muted-foreground">Quark Talent<br />Newport, NJ 07310</p>
               </div>
               <div>
                 <h4 className="font-bold text-lg mb-2">Toronto</h4>
