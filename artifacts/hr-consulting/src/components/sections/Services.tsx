@@ -156,23 +156,11 @@ function ServiceCard({ service, index }: { service: typeof services[0]; index: n
             className="overflow-hidden"
           >
             <div className={`px-8 md:px-12 pb-10 border-t ${service.primary ? "border-white/10" : "border-border"}`}>
-              <div className={`grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 ${service.primary ? "text-primary-foreground/80" : "text-muted-foreground"}`}>
+              <div className={`grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 ${service.primary ? "text-primary-foreground/80" : "text-muted-foreground"}`}>
 
                 <div>
                   <p className="text-xs uppercase tracking-widest font-semibold text-accent mb-3">What it is</p>
                   <p className="leading-relaxed text-sm">{service.detail.what}</p>
-                </div>
-
-                <div>
-                  <p className="text-xs uppercase tracking-widest font-semibold text-accent mb-3">You need this if</p>
-                  <ul className="space-y-2">
-                    {service.detail.when.map((item, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm leading-relaxed">
-                        <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
                 </div>
 
                 <div>
