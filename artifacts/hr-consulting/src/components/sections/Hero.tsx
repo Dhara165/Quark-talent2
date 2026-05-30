@@ -71,7 +71,6 @@ export function Hero() {
                 { stat: "20+", label: "Years of combined experience" },
                 { stat: "North America", label: "Active search capability across the US and Canada" },
                 { stat: "All levels", label: "Specialist to C-suite" },
-                { stat: "Confidential", label: "Every search conducted with full discretion" },
               ].map((item) => (
                 <div key={item.stat} className="flex flex-col" data-testid={`hero-stat-${item.stat.replace(/\s+/g, "-").toLowerCase()}`}>
                   <span className="text-2xl font-bold text-white font-heading">{item.stat}</span>
