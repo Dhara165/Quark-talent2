@@ -10,12 +10,12 @@ const services = [
     icon: Users,
     primary: true,
     detail: {
-      what: "A structured, proactive search to find the right person for a specific role — from specialist hires to senior leadership appointments. We work on a retained basis, meaning we are exclusively committed to your search from day one.",
+      what: "A structured, proactive search to find the right person for a specific role, from specialist hires to senior leadership appointments. We commit fully to each search and do not operate as a volume business.",
       when: [
-        "You have a critical role that job boards are not filling",
-        "The person you need is not actively looking for work",
-        "You need discretion around a senior or sensitive hire",
-        "Previous attempts to hire have not produced the right result",
+        "The appointment carries real weight and the shortlist needs to reflect that",
+        "The right candidate is unlikely to surface through a standard process",
+        "Speed and precision matter as much as the quality of the outcome",
+        "The search calls for market knowledge that goes beyond what is publicly visible",
       ],
       includes: [
         "Role scoping and market mapping",
@@ -34,7 +34,7 @@ const services = [
     icon: Lightbulb,
     primary: false,
     detail: {
-      what: "A strategic advisory service that helps you think clearly about your people function — how it is structured today, where the gaps are, and what needs to change to support where your business is going.",
+      what: "A strategic advisory service that helps you think clearly about your people function: how it is structured today, where the gaps are, and what needs to change to support where your business is going.",
       when: [
         "You are scaling quickly and hiring is not keeping pace",
         "You are unsure where to invest in headcount next",
@@ -57,7 +57,7 @@ const services = [
     icon: Database,
     primary: false,
     detail: {
-      what: "Guidance on selecting and deploying the right HR technology for your organization — whether you are a growing business moving off spreadsheets or an enterprise navigating a complex system change.",
+      what: "Guidance on selecting and deploying the right HR technology for your organization, whether you are a growing business building out your people infrastructure or an enterprise navigating a complex system change.",
       when: [
         "You are outgrowing your current HR tools or processes",
         "You are evaluating platforms like Workday, SAP SuccessFactors, or BambooHR",
@@ -80,12 +80,12 @@ const services = [
     icon: Briefcase,
     primary: false,
     detail: {
-      what: "An experienced HR leader placed into your organization on a fixed-term basis — to cover a vacancy, lead a specific initiative, or provide senior HR capability during a period of significant change.",
+      what: "An experienced HR leader placed into your organization on a fixed-term basis to lead a specific initiative, provide senior HR capability during a period of change, or bridge toward a permanent appointment.",
       when: [
-        "Your CHRO or HR Director has left and you need cover immediately",
-        "You are going through a merger, acquisition, or restructure",
-        "You need senior HR expertise without committing to a permanent hire",
-        "A specific initiative requires dedicated HR leadership",
+        "Your organization is entering a period of change that calls for senior HR leadership",
+        "You need someone who can operate independently from day one",
+        "The mandate is time-bounded but the impact on the business needs to be lasting",
+        "You want to shape what the HR function looks like before committing to a permanent hire",
       ],
       includes: [
         "Rapid mobilization within agreed timelines",
