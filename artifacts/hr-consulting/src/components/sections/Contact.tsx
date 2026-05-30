@@ -48,7 +48,7 @@ export function Contact() {
     console.log(values);
     toast({
       title: "Request Received",
-      description: "A Meridian partner will contact you within 24 hours.",
+      description: "A Quark Talent partner will contact you within 24 hours.",
     });
     form.reset();
   }

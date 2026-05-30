@@ -43,7 +43,7 @@ export function WhyUs() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">The Meridian Advantage</h2>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">The Quark Advantage</h2>
             <p className="text-xl text-muted-foreground mb-10 leading-relaxed">
               We operate differently. By limiting our active engagements, we guarantee partner-level attention on every search. Our process combines institutional rigor with startup agility.
             </p>

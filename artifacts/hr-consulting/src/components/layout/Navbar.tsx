@@ -38,7 +38,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <div className={`font-heading font-bold text-xl tracking-tight ${isScrolled ? "text-primary" : "text-white"}`}>
-            MERIDIAN <span className="text-accent">TALENT</span>
+            QUARK <span className="text-accent">TALENT</span>
           </div>
         </Link>
 
