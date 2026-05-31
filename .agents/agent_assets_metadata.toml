@@ -1,5 +1,4 @@
 uploads = []
-outputs = []
 
 [[generated]]
 id = "MUEtShAKNpoKA6K_me9SS"
@@ -12,3 +11,39 @@ id = "j2I8sxJrAdj-2f3WdEi6k"
 uri = "file://artifacts/hr-consulting/public/services-bg.png"
 type = "image"
 title = "confident professional silhouette"
+
+[[generated]]
+id = "TTChzgLc4nLaVzoChUm-Q"
+uri = "file://attached_assets/logo-option-a.png"
+type = "image"
+title = "quark talent logo option A"
+
+[[generated]]
+id = "flKtD8BmKPeLgzeZ2D99r"
+uri = "file://attached_assets/logo-option-b.png"
+type = "image"
+title = "quark talent logo option B"
+
+[[generated]]
+id = "nIMx8DMIdtaPqNEjjPhFr"
+uri = "file://attached_assets/logo-option-c.png"
+type = "image"
+title = "quark talent logo option C"
+
+[[outputs]]
+id = "kaXlVcViN4y6CiOTUVErx"
+uri = "file://attached_assets/logo-option-a.png"
+type = "image"
+title = "Option A — Hexagon mark"
+
+[[outputs]]
+id = "moBlt0BEO1jliZL4pO0DZ"
+uri = "file://attached_assets/logo-option-b.png"
+type = "image"
+title = "Option B — Q lettermark"
+
+[[outputs]]
+id = "qfaLX8xWeiUUBYgxG77Et"
+uri = "file://attached_assets/logo-option-c.png"
+type = "image"
+title = "Option C — Line mark"
