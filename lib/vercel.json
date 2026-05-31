@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd artifacts/hr-consulting && npm install && npm run build",
+  "buildCommand": "cd artifacts/hr-consulting && pnpm install && pnpm run build",
   "outputDirectory": "artifacts/hr-consulting/dist",
   "framework": "vite",
   "rewrites": [
