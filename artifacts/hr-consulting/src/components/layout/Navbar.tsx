@@ -36,10 +36,12 @@ export function Navbar() {
       }`}
     >
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <div className={`font-heading font-bold text-xl tracking-tight ${isScrolled ? "text-primary" : "text-white"}`}>
-            QUARK <span className="text-accent">TALENT</span>
-          </div>
+        <Link href="/" className="flex items-center">
+          <img
+            src="/quark-talent-logo.png"
+            alt="Quark Talent"
+            className={`h-10 w-auto transition-all duration-300 ${isScrolled ? "brightness-0" : ""}`}
+          />
         </Link>
 
         {/* Desktop Nav */}
