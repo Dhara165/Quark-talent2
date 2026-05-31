@@ -4,8 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
+    "dev": "vite",
+    "build": "env PORT=3000 BASE_PATH=/ vite build",
     "preview": "vite preview",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
