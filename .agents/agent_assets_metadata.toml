@@ -54,6 +54,30 @@ uri = "file://attached_assets/logo-linkedin.png"
 type = "image"
 title = "quark talent white background linkedin logo"
 
+[[generated]]
+id = "1GmwLJH44UgvjLI0i0uVl"
+uri = "file://attached_assets/qt-v1.png"
+type = "image"
+title = "QT monogram navy blue white background v1"
+
+[[generated]]
+id = "-WLIDyHDBaonmM3nsmQXi"
+uri = "file://attached_assets/qt-v2.png"
+type = "image"
+title = "QT monogram stacked superscript v2"
+
+[[generated]]
+id = "yqd-yhHAPDQVhs4AMuPyM"
+uri = "file://attached_assets/qt-v3.png"
+type = "image"
+title = "QT monogram boxed frame v3"
+
+[[generated]]
+id = "2WXz-1C32OTHcSkv0fgZr"
+uri = "file://attached_assets/qt-v4.png"
+type = "image"
+title = "QT monogram divided line v4"
+
 [[outputs]]
 id = "kaXlVcViN4y6CiOTUVErx"
 uri = "file://attached_assets/logo-option-a.png"
@@ -95,3 +119,27 @@ id = "YREAvGioocOm7XQxENkkB"
 uri = "file://attached_assets/logo-linkedin.png"
 type = "image"
 title = "Quark Talent — LinkedIn logo (white background)"
+
+[[outputs]]
+id = "Q2wbfWPRmkG8urLLGReJN"
+uri = "file://attached_assets/qt-v1.png"
+type = "image"
+title = "Option 1 — Side by side, Q navy / T blue"
+
+[[outputs]]
+id = "Q6tEVaSszyfHsEzDDBBE9"
+uri = "file://attached_assets/qt-v2.png"
+type = "image"
+title = "Option 2 — Q with T superscript"
+
+[[outputs]]
+id = "dRZcr1wSsstgnVtcT8mTs"
+uri = "file://attached_assets/qt-v3.png"
+type = "image"
+title = "Option 3 — Boxed frame"
+
+[[outputs]]
+id = "uECUlAOjUmRKnz8x5DHuj"
+uri = "file://attached_assets/qt-v4.png"
+type = "image"
+title = "Option 4 — Divided by line"
