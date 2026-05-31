@@ -48,6 +48,12 @@ uri = "file://attached_assets/logo-v2-c.png"
 type = "image"
 title = "quark talent navy blue logo v2 C"
 
+[[generated]]
+id = "Ld66U2MdlZA776io7AzPU"
+uri = "file://attached_assets/logo-linkedin.png"
+type = "image"
+title = "quark talent white background linkedin logo"
+
 [[outputs]]
 id = "kaXlVcViN4y6CiOTUVErx"
 uri = "file://attached_assets/logo-option-a.png"
@@ -83,3 +89,9 @@ id = "j10Lh4q_P0QBABw43q7Qv"
 uri = "file://attached_assets/logo-v2-c.png"
 type = "image"
 title = "Option C"
+
+[[outputs]]
+id = "YREAvGioocOm7XQxENkkB"
+uri = "file://attached_assets/logo-linkedin.png"
+type = "image"
+title = "Quark Talent — LinkedIn logo (white background)"
