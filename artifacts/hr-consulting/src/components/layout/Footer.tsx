@@ -4,9 +4,11 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
           <div className="col-span-1 md:col-span-2">
-            <div className="font-heading font-bold text-2xl tracking-tight mb-4">
-              QUARK <span className="text-accent">TALENT</span>
-            </div>
+            <img
+              src="/quark-talent-logo.png"
+              alt="Quark Talent"
+              className="h-10 w-auto mb-4"
+            />
             <p className="text-primary-foreground/70 max-w-sm mb-6">
               Talent acquisition and HR advisory with over 20 years of combined experience. We help organizations find and keep the people who matter most.
             </p>
