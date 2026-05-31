@@ -36,10 +36,12 @@ export function Navbar() {
       }`}
     >
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <div className={`font-heading font-bold text-2xl tracking-widest ${isScrolled ? "text-primary" : "text-white"}`}>
-            Q<span className="text-accent">T</span>
-          </div>
+        <Link href="/" className="flex items-center">
+          <img
+            src="/qt-logo.png"
+            alt="Quark Talent"
+            className={`h-14 w-auto transition-all duration-300 ${isScrolled ? "" : "brightness-0 invert"}`}
+          />
         </Link>
 
         {/* Desktop Nav */}
