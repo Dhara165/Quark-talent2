@@ -11,9 +11,10 @@ export function Footer() {
               Talent acquisition and HR advisory with over 20 years of combined experience. We help organizations find and keep the people who matter most.
             </p>
             <div className="flex gap-4">
-              {/* LinkedIn — replace href with your company page URL when ready */}
               <a
-                href="#"
+                href="https://www.linkedin.com/company/119873967/admin/dashboard/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Quark Talent on LinkedIn"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors"
               >

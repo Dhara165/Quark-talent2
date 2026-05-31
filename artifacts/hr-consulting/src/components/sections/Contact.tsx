@@ -79,7 +79,10 @@ export function Contact() {
               </div>
               <div>
                 <h4 className="font-bold text-lg mb-2">Contact</h4>
-                <p className="text-muted-foreground">partner@quarktalent.com<br />Tel: +1 (917) 654-7106</p>
+                <p className="text-muted-foreground">
+                  <a href="mailto:partner@quarktalent.com" className="hover:text-foreground transition-colors">partner@quarktalent.com</a>
+                  <br />Tel: +1 (917) 654-7106
+                </p>
               </div>
             </div>
           </motion.div>
@@ -149,10 +152,10 @@ export function Contact() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="recruitment">Executive & Tech Recruitment</SelectItem>
+                          <SelectItem value="recruitment">Recruitment</SelectItem>
                           <SelectItem value="strategy">Talent Strategy</SelectItem>
                           <SelectItem value="hris">HRIS Implementation</SelectItem>
-                          <SelectItem value="interim">Interim Leadership</SelectItem>
+                          <SelectItem value="interim">Leadership</SelectItem>
                           <SelectItem value="other">Other Inquiry</SelectItem>
                         </SelectContent>
                       </Select>
