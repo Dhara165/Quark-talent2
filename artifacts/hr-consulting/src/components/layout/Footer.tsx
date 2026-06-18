@@ -12,7 +12,7 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.linkedin.com/company/119873967/admin/dashboard/"
+                href="https://www.linkedin.com/company/quark-talent/?viewAsMember=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Quark Talent on LinkedIn"
