@@ -30,17 +30,17 @@ export function Navbar() {
   ];
 
   return (
-    <nav
+       <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto px-4 h-28 flex items-center justify-between">
+      <div className="container mx-auto px-4 h-36 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <img
             src="/quark-talent-logo.png"
             alt="Quark Talent"
-            className="h-20 w-auto transition-all duration-300"
+            className="h-28 w-72 object-contain transition-all duration-300"
           />
         </Link>
 
