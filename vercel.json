@@ -1,4 +1,5 @@
 {
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "buildCommand": "pnpm --filter @workspace/hr-consulting run build",
   "outputDirectory": "artifacts/hr-consulting/dist",
   "framework": "vite",
