@@ -36,14 +36,18 @@ export function Navbar() {
       }`}
     >
       <div className="container mx-auto px-4 h-36 flex items-center justify-between">
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center gap-3">
           <img
             src="/quark-talent-logo.png"
             alt="Quark Talent"
-            className="h-28 w-72 object-contain transition-all duration-300"
+            className="h-20 w-auto object-contain transition-all duration-300"
           />
+          <span className={`text-2xl font-bold tracking-tight transition-colors ${
+            isScrolled ? "text-foreground" : "text-white"
+          }`}>
+            Quark Talent
+          </span>
         </Link>
-
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
           <div className="flex gap-6">
