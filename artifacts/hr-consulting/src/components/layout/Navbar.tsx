@@ -36,16 +36,19 @@ export function Navbar() {
       }`}
     >
       <div className="container mx-auto px-4 h-36 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3">
+                <Link href="/" className="flex items-center gap-5">
           <img
             src="/quark-talent-logo.png"
             alt="Quark Talent"
-            className="h-20 w-auto object-contain transition-all duration-300"
+            className="h-32 w-auto object-contain transition-all duration-300"
           />
-          <span className={`text-2xl font-bold tracking-tight transition-colors ${
-            isScrolled ? "text-foreground" : "text-white"
-          }`}>
-            Quark Talent
+          <span className="text-7xl font-extrabold tracking-tighter transition-colors">
+            <span className={`${isScrolled ? "text-foreground" : "text-white"}`}>
+              Quark
+            </span>
+            <span className="text-[#2563eb] ml-3">
+              Talent
+            </span>
           </span>
         </Link>
         {/* Desktop Nav */}
