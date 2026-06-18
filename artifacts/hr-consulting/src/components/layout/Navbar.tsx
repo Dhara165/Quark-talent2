@@ -35,12 +35,12 @@ export function Navbar() {
         isScrolled ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto px-4 h-20 flex items-center justify-between">
+      <div className="container mx-auto px-4 h-28 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <img
-            src="quark-talent-logo.png"
+            src="/quark-talent-logo.png"
             alt="Quark Talent"
-            className={`h-14 w-auto transition-all duration-300 ${isScrolled ? "" : "brightness-0 invert"}`}
+            className="h-20 w-auto transition-all duration-300"
           />
         </Link>
 
