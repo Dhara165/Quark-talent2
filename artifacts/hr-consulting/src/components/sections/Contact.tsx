@@ -45,7 +45,7 @@ export function Contact() {
   });
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      const response = await fetch("https://formsubmit.co", {
+      const response = await fetch("dharapatel165@outlook.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
