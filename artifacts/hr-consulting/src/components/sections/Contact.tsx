@@ -120,115 +120,15 @@ export function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-card p-8 md:p-10 rounded-2xl shadow-sm border"
+            className="w-full h-[650px] bg-card rounded-2xl shadow-sm border overflow-hidden"
           >
-            <Form {...form}>
-              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <FormField
-                    control={form.control}
-                    name="name"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>Full Name</FormLabel>
-                        <FormControl>
-                          <Input placeholder="" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-                  <FormField
-                    control={form.control}
-                    name="company"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>Company</FormLabel>
-                        <FormControl>
-                          <Input placeholder="" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-                </div>
-                
-                <FormField
-                  control={form.control}
-                  name="email"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Corporate Email</FormLabel>
-                      <FormControl>
-                        <Input placeholder="" {...field} />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-<FormField
-  control={form.control}
-  name="phone"
-  render={({ field }) => (
-    <FormItem className="mt-4">
-      <FormLabel>Phone Number</FormLabel>
-      <FormControl>
-        <Input placeholder="" {...field} />
-      </FormControl>
-      <FormMessage />
-    </FormItem>
-  )}
-/>
-
-                <FormField
-                  control={form.control}
-                  name="service"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Primary Interest</FormLabel>
-                      <Select onValueChange={field.onChange} defaultValue={field.value}>
-                        <FormControl>
-                          <SelectTrigger>
-                            <SelectValue placeholder="Select a service" />
-                          </SelectTrigger>
-                        </FormControl>
-                        <SelectContent>
-                          <SelectItem value="recruitment">Recruitment Needs</SelectItem>
-                          <SelectItem value="strategy">Talent Strategy</SelectItem>
-                          <SelectItem value="hris">HRIS Implementation</SelectItem>
-                          <SelectItem value="interim">Leadership Advisory</SelectItem>
-                          <SelectItem value="other">Other Inquiry</SelectItem>
-                        </SelectContent>
-                      </Select>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-
-                <FormField
-                  control={form.control}
-                  name="message"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Message / Context</FormLabel>
-                      <FormControl>
-                        <Textarea 
-                          placeholder="Briefly describe your current organizational needs..." 
-                          className="min-h-[120px]"
-                          {...field} 
-                        />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-
-                <Button type="submit" size="lg" className="w-full bg-accent hover:bg-accent/90 text-white" data-testid="contact-submit">
-                  Submit Inquiry
-                </Button>
-              </form>
-            </Form>
+            <iframe 
+              src="<iframe width="640px" height="480px" src="https://forms.cloud.microsoft/r/tZy0DDCtBp?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>" 
+              className="w-full h-full border-none"
+              allowFullScreen
+            />
           </motion.div>
+
         </div>
       </div>
     </section>
