@@ -115,20 +115,20 @@ export function Contact() {
             </div>
           </motion.div>
 
- <motion.div
+           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="w-full h-[520px] bg-card rounded-2xl shadow-sm border overflow-hidden relative"
+            className="w-full h-[380px] bg-card rounded-2xl shadow-sm border overflow-hidden relative"
           >
             <iframe 
-              src="https://forms.cloud.microsoft/r/tZy0DDCtBp?embed=true" 
-              className="w-full h-[590px] border-none absolute top-0 left-0"
-              style={{ overflow: 'hidden' }}
+              src="https://cloud.microsoft" 
+              className="w-full h-[500px] border-none absolute top-0 left-0"
               scrolling="no"
             />
           </motion.div>
+
 
         </div>
       </div>
