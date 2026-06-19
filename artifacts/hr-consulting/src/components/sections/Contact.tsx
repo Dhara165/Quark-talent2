@@ -123,7 +123,7 @@ export function Contact() {
             className="w-full h-[380px] bg-card rounded-2xl shadow-sm border overflow-hidden relative"
           >
             <iframe 
-              src="https://cloud.microsoft" 
+              src="https://forms.cloud.microsoft/r/tZy0DDCtBp?embed=true" 
               className="w-full h-[500px] border-none absolute top-0 left-0"
               scrolling="no"
             />
