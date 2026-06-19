@@ -43,14 +43,42 @@ export function Contact() {
       message: "",
     },
   });
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    try {
+      const response = await fetch("https://formsubmit.co", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          "Form Origin": "Quark Talent Enquiry",
+          "Client Name": values.name,
+          "Company": values.company,
+          "Client Email": values.email,
+          "Requested Service": values.service,
+          "Message Details": values.message
+        })
+      });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    toast({
-      title: "Request Received",
-      description: "A Quark Talent partner will contact you within 24 hours.",
-    });
-    form.reset();
+      if (response.ok) {
+        toast({
+          title: "Request Received",
+          description: "A Quark Talent partner will contact you within 24 hours.",
+        });
+        form.reset();
+      } else {
+        throw new Error("Form delivery failed");
+      }
+    } catch (error) {
+      toast({
+        title: "Submission Error",
+        description: "There was a problem delivering your message. Please try again.",
+        variant: "destructive",
+      });
+    }
+  }
+
   }
 
   return (
