@@ -35,21 +35,13 @@ export function Navbar() {
         isScrolled ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto px-4 h-36 flex items-center justify-between">
-                <Link href="/" className="flex items-center gap-5">
+           <div className="container mx-auto px-4 h-64 flex items-center justify-between">
+        <Link href="/" className="flex items-center">
           <img
             src="/quark-talent-logo.png"
             alt="Quark Talent"
-            className="h-32 w-auto object-contain transition-all duration-300"
+            className="h-56 w-auto object-contain transition-all duration-300"
           />
-          <span className="text-7xl font-extrabold tracking-tighter transition-colors">
-            <span className={`${isScrolled ? "text-foreground" : "text-white"}`}>
-              Quark
-            </span>
-            <span className="text-[#2563eb] ml-3">
-              Talent
-            </span>
-          </span>
         </Link>
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
