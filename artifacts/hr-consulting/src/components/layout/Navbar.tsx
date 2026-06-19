@@ -35,12 +35,12 @@ export function Navbar() {
         isScrolled ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b shadow-sm" : "bg-transparent"
       }`}
     >
-           <div className="container mx-auto px-4 h-64 flex items-center justify-between">
+                <div className="container mx-auto px-4 h-32 md:h-64 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <img
             src="/quark-talent-logo.png"
             alt="Quark Talent"
-            className="h-56 w-auto object-contain transition-all duration-300"
+            className="h-20 md:h-56 -mt-3 md:-mt-6 w-auto object-contain transition-all duration-300"
           />
         </Link>
         {/* Desktop Nav */}
