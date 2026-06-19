@@ -123,7 +123,7 @@ export function Contact() {
             className="w-full h-[650px] bg-card rounded-2xl shadow-sm border overflow-hidden"
           >
             <iframe 
-              src="<iframe width="640px" height="480px" src="https://forms.cloud.microsoft/r/tZy0DDCtBp?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>" 
+              src="https://forms.cloud.microsoft/r/tZy0DDCtBp?embed=true" 
               className="w-full h-full border-none"
               allowFullScreen
             />
