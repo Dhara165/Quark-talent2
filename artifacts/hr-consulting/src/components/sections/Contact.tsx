@@ -130,7 +130,7 @@ export function Contact() {
                       <FormItem>
                         <FormLabel>Full Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Jane Doe" {...field} />
+                          <Input placeholder="" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -143,7 +143,7 @@ export function Contact() {
                       <FormItem>
                         <FormLabel>Company</FormLabel>
                         <FormControl>
-                          <Input placeholder="Acme Corp" {...field} />
+                          <Input placeholder="" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -158,12 +158,25 @@ export function Contact() {
                     <FormItem>
                       <FormLabel>Corporate Email</FormLabel>
                       <FormControl>
-                        <Input placeholder="jane@company.com" {...field} />
+                        <Input placeholder="" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
                   )}
                 />
+<FormField
+  control={form.control}
+  name="phone"
+  render={({ field }) => (
+    <FormItem className="mt-4">
+      <FormLabel>Phone Number</FormLabel>
+      <FormControl>
+        <Input placeholder="" {...field} />
+      </FormControl>
+      <FormMessage />
+    </FormItem>
+  )}
+/>
 
                 <FormField
                   control={form.control}
@@ -178,10 +191,10 @@ export function Contact() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="recruitment">Recruitment</SelectItem>
+                          <SelectItem value="recruitment">Recruitment Needs</SelectItem>
                           <SelectItem value="strategy">Talent Strategy</SelectItem>
                           <SelectItem value="hris">HRIS Implementation</SelectItem>
-                          <SelectItem value="interim">Leadership</SelectItem>
+                          <SelectItem value="interim">Leadership Advisory</SelectItem>
                           <SelectItem value="other">Other Inquiry</SelectItem>
                         </SelectContent>
                       </Select>
@@ -198,7 +211,7 @@ export function Contact() {
                       <FormLabel>Message / Context</FormLabel>
                       <FormControl>
                         <Textarea 
-                          placeholder="Briefly describe your current organizational challenges..." 
+                          placeholder="Briefly describe your current organizational needs..." 
                           className="min-h-[120px]"
                           {...field} 
                         />
