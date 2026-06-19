@@ -35,16 +35,23 @@ export function Navbar() {
         isScrolled ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b shadow-sm" : "bg-transparent"
       }`}
     >
-                <div className="container mx-auto px-4 h-32 md:h-64 flex items-center justify-between">
-        <Link href="/" className="flex items-center">
+                     <div className={`container mx-auto px-4 flex transition-all duration-300 ${
+        isScrolled 
+          ? "h-16 flex-row items-center justify-between" 
+          : "h-auto py-6 flex-col md:flex-row items-center justify-between gap-4"
+      }`}>
+        <Link href="/" className={`flex items-center transition-all duration-300 ${isScrolled ? "" : "w-full md:w-auto justify-center md:justify-start"}`}>
           <img
             src="/quark-talent-logo.png"
             alt="Quark Talent"
-            className="h-20 md:h-56 -mt-3 md:-mt-6 w-auto object-contain transition-all duration-300"
+            className={`object-contain transition-all duration-300 ${
+              isScrolled ? "h-12" : "h-28 md:h-44 w-auto"
+            }`}
           />
         </Link>
+
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className={`hidden md:flex items-center gap-8 ${isScrolled ? "" : "w-full md:w-auto justify-center md:justify-end"}`}>
           <div className="flex gap-6">
             {navLinks.map((link) => (
               <button
